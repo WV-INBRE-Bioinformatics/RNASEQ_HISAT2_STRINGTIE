@@ -1,5 +1,3 @@
-# RNASEQ_HISAT2_STRINGTIE
-
 1. Install the following perl modules
 	IO::Uncompress::UnXz
 	IO::Uncompress::UnLzma
