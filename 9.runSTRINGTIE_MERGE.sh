@@ -22,3 +22,5 @@ OUT=" -o Merged.gtf"
 # Submit the job
 # Change paths to all the files as necessary
 stringtie --merge $OUT $REFERENCE $THREADS ../KO_20W_AL.Merged.gtf ../KO_20W_CR.Merged.gtf ../KO_80W_AL.Merged.gtf ../KO_80W_CR.Merged.gtf ../OE_20W_AL.Merged.gtf ../OE_20W_CR.Merged.gtf ../OE_80W_AL.Merged.gtf ../OE_80W_CR.Merged.gtf ../WT_20W_AL.Merged.gtf ../WT_20W_CR.Merged.gtf ../WT_80W_AL.Merged.gtf ../WT_80W_CR.Merged.gtf
+# Sridhar A Malkaram (smalkaram@wvstateu.edu)
+# Last modified on: 12/30/2017

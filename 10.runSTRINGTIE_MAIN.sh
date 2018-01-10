@@ -49,3 +49,5 @@ do
 		echo "stringtie $BAM $GTF $REFERENCE $ABUNDANCES $COVREFS $CTABFILES $CTABPATH $THREADS $NONOVEL" | qsub -V -N $BASE -l nodes=1:ppn=4 -q long
 	done
 done
+# Sridhar A Malkaram (smalkaram@wvstateu.edu)
+# Last modified on: 12/30/2017

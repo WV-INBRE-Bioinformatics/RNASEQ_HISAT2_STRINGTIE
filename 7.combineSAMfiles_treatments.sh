@@ -21,3 +21,5 @@ do
 	picard MergeSamFiles $INPUT_SAM_FILES $OUTPUT_SAM_FILE
 done
 
+# Sridhar A Malkaram (smalkaram@wvstateu.edu)
+# Last modified on: 12/30/2017

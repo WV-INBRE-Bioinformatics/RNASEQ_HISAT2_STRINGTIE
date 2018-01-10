@@ -26,3 +26,5 @@ do
 	# Change this path as necessary
 	echo "stringtie $BAM $OUT $REFERENCE $THREADS" | qsub -V -N $BASE -l nodes=1:ppn=12 -q long -d /home/smalkaram/Projects/alwayMRNA20170516143625/TRIM/HISAT2/STRINGTIE
 done
+# Sridhar A Malkaram (smalkaram@wvstateu.edu)
+# Last modified on: 12/30/2017
